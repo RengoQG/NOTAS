@@ -1,0 +1,59 @@
+body{
+    background-color: bisque;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.titulo{
+    position: absolute;
+    color: #0000008a;
+}
+
+.container form{
+    position: absolute;
+    margin-top: 250px;
+}
+
+.table-container{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 600px;
+    width: 100%;
+    max-height: 200px; /* Ajusta esta altura máxima según tus necesidades iniciales */
+    border: 1px solid #ccc; /* Añade un borde al contenedor si deseas */
+}
+
+
+
+.card {
+    position: absolute;
+    width: 300px; /* Ajusta el ancho según tus preferencias */
+    background-color: #fff; /* Color de fondo de la tarjeta */
+    border: 1px solid #ccc; /* Borde de la tarjeta */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra de la tarjeta */
+    padding: 20px; /* Espaciado interno de la tarjeta */
+    border-radius: 8px; /* Borde redondeado de la tarjeta */
+    z-index: 1;
+}
+
+.table{
+    background-color: #fff;
+    width: 650px;
+    border-radius: 20px;
+}
+
+
+
+.lista{
+    position: absolute;
+    margin-top: 650px;
+    z-index: 1;
+}
+
